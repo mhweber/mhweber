@@ -4,7 +4,6 @@
 [![Twitter Badge](https://img.shields.io/twitter/follow/marc_h_weber?style=social)](https://twitter.com/marc_h_weber)
 [![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-lightgrey)](https://scholar.google.com/citations?user=DOs--KYAAAAJ&hl=en)
 [![LinkedIn Badge](https://img.shields.io/badge/My-LinkedIn-blue)](https://www.linkedin.com/in/marchweber)
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=giswqs.giswqs)
 
 I'm a geographer with the US EPA. My research interests include spatial analysis in R and Python, Geographic Information Science (GIS), aquatic ecology,remote sensing, open source science and environmental modeling.
 
