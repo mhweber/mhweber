@@ -1,6 +1,6 @@
 ## Marc Weber
 
-[![GitHub Badge](https://img.shields.io/github/followers/giswqs?style=social)](https://github.com/mhweber?tab=followers)
+[![GitHub Badge](https://img.shields.io/github/followers/mhweber?style=social)](https://github.com/mhweber?tab=followers)
 [![Twitter Badge](https://img.shields.io/twitter/follow/marc_h_weber?style=social)](https://twitter.com/marc_h_weber)
 [![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-lightgrey)](https://scholar.google.com/citations?user=DOs--KYAAAAJ&hl=en)
 [![LinkedIn Badge](https://img.shields.io/badge/My-LinkedIn-blue)](https://www.linkedin.com/in/marchweber)
