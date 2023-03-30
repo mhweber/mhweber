@@ -10,8 +10,8 @@
 I'm a geographer with the US EPA. My research interests include spatial analysis in R and Python, Geographic Information Science (GIS), aquatic ecology, remote sensing, open source science and environmental modeling. I'm an avid trail runner and ultra-runner and love tinkering on house projects and gardening in my spare time.
 
 ## Stats
-![Github stats](https://github-readme-stats.vercel.app/api?username=mhweber&theme=aura&hide_title=true&show_icons=true&include_all_commits=true&count_private=true)
-![Marc's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mhweber&theme=aura&hide_title=true&layout=compact&langs_count=10&hide=html)
+![Github stats](https://github-readme-stats-sigma-five.vercel.app/api?username=mhweber&theme=aura&hide_title=true&show_icons=true&include_all_commits=true&count_private=true)
+![Marc's top languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=mhweber&theme=aura&hide_title=true&layout=compact&langs_count=10&hide=html)
 <!--
 <a href="https://github.com/mhweber/mhweber">
   <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=mhweber&hide=java,html,go, javascript,css&&layout=compact&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
