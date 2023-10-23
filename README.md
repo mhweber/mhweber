@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://fosstodon.org/@mhweber"><img src="https://img.shields.io/badge/-Mastodon-555555?style=for-the-badge&logo=Mastodon&logoColor=white" alt="Mastodon"></a>	
   <a href="https://github.com/mhweber?tab=followers"><img src="https://img.shields.io/badge/-Github/-555555?style=for-the-badge&logo=GitHub&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/marchweber"><img src="https://img.shields.io/badge/-Linkedin-555555?style=for-the-badge&logo=linked-in&logoColor=white" alt="Linked In"></a>
+  <a href="https://www.linkedin.com/in/marchweber"><img src="https://img.shields.io/badge/-LinkedIn/-555555?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="Linked In"></a>
 </p>
 <p align="center">
   <a href="https://www.researchgate.net/profile/Marc_Weber3"><img src="https://img.shields.io/badge/-ResearchGate-555555?style=for-the-badge&logo=researchgate&logoColor=white" alt="ResearchGate"></a>
