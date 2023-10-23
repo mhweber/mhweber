@@ -5,8 +5,8 @@
 [![ORCID Badge](https://img.shields.io/badge/ORCID-iD-green)](https://orcid.org/0000-0002-9742-4744)
 [![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-red)](https://scholar.google.com/citations?user=DOs--KYAAAAJ&hl=en)
 [![LinkedIn Badge](https://img.shields.io/badge/My-LinkedIn-blue)](https://www.linkedin.com/in/marchweber)
-[![Twitter Badge](https://img.shields.io/twitter/follow/marc_h_weber?style=social)](https://twitter.com/marc_h_weber)
-[![Twitter Badge](https://shields.io/badge/Stack_Overflow-orange)](https://stackoverflow.com/users/1905305)
+[![Mastadon Badge](https://img.shields.io/mastodon/follow/111050021289797031)](https://img.shields.io/mastodon/follow/111050021289797031)
+[![Stack Overflow Badge](https://shields.io/badge/Stack_Overflow-orange)](https://stackoverflow.com/users/1905305)
 
 I'm a geographer with the US EPA. My research interests include spatial analysis in R and Python, Geographic Information Science (GIS), aquatic ecology, remote sensing, open source science and environmental modeling. I'm an avid trail runner and ultra-runner and love tinkering on house projects and gardening in my spare time.
 
