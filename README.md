@@ -1,12 +1,16 @@
 ## Marc Weber :running:
 
-[![GitHub Badge](https://img.shields.io/github/followers/mhweber?style=social)](https://github.com/mhweber?tab=followers)
-[![ResearchGate Badge](https://img.shields.io/badge/Research-Gate-brightgreen)](https://www.researchgate.net/profile/Marc_Weber3)
-[![ORCID Badge](https://img.shields.io/badge/ORCID-iD-green)](https://orcid.org/0000-0002-9742-4744)
-[![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-red)](https://scholar.google.com/citations?user=DOs--KYAAAAJ&hl=en)
-[![LinkedIn Badge](https://img.shields.io/badge/My-LinkedIn-blue)](https://www.linkedin.com/in/marchweber)
-[![Mastadon Badge](https://img.shields.io/mastodon/follow/111050021289797031)](https://img.shields.io/mastodon/follow/111050021289797031)
-[![Stack Overflow Badge](https://shields.io/badge/Stack_Overflow-orange)](https://stackoverflow.com/users/1905305)
+<p align="center">
+  <a href="https://fosstodon.org/@mhweber"><img src="https://img.shields.io/badge/-Mastodon-555555?style=for-the-badge&logo=Mastodon&logoColor=white" alt="Mastodon"></a>	
+  <a href="https://github.com/mhweber?tab=followers"><img src="https://img.shields.io/badge/-Github/-555555?style=for-the-badge&logo=GitHub&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/marchweber"><img src="https://img.shields.io/badge/-Linkedin-555555?style=for-the-badge&logo=linked-in&logoColor=white" alt="Linked In"></a>
+</p>
+<p align="center">
+  <a href="https://www.researchgate.net/profile/Marc_Weber3"><img src="https://img.shields.io/badge/-ResearchGate-555555?style=for-the-badge&logo=researchgate&logoColor=white" alt="ResearchGate"></a>
+  <a href="https://scholar.google.pl/citations?hl=pl&user=DOs--KYAAAAJ&hl=en"><img src="https://img.shields.io/badge/-Google Scholar-555555?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar"></a>
+  <a href="https://orcid.org/0000-0002-9742-4744"><img src="https://img.shields.io/badge/-Orcid-555555?style=for-the-badge&logo=Orcid&logoColor=white" alt="Orcid"></a>	
+  <a href="https://stackoverflow.com/users/1905305"><img src="https://img.shields.io/badge/-StackOverflow-555555?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="StackOverflow"></a>	
+</p>
 
 I'm a geographer with the US EPA. My research interests include spatial analysis in R and Python, Geographic Information Science (GIS), aquatic ecology, remote sensing, open source science and environmental modeling. I'm an avid trail runner and ultra-runner and love tinkering on house projects and gardening in my spare time.
 
