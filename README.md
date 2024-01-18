@@ -25,7 +25,7 @@ I'm a geographer with the US EPA. My research interests include spatial analysis
   <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=mhweber&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Marc's GitHub Stats" />
 </a>
 
-<h3>Open source projects</h3>
+## Open source projects
 <table>
   <thead align="center">
     <tr border: none;>
