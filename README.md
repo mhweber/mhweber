@@ -25,4 +25,51 @@ I'm a geographer with the US EPA. My research interests include spatial analysis
   <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=mhweber&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Marc's GitHub Stats" />
 </a>
 
+<h3>Open source projects</h3>
+<table>
+  <thead align="center">
+    <tr border: none;>
+      <td><b>📚 Projects</b></td>
+      <td><b>⭐ Stars</b></td>
+      <td><b>🍴 Forks</b></td>
+      <td><b>🛎 Issues</b></td>
+      <td><b>📬 Pull requests</b></td>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td><a href="https://github.com/USEPA/StreamCatTools"><b>USEPA/StreamCatTools</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/USEPA/StreamCatTools?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/USEPA/StreamCatTools?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/USEPA/StreamCatTools?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/USEPA/StreamCatTools?style=flat-square&labelColor=343b41"/></td>
+    </tr>
+    <br> 
+    <tr>
+      <td><a href="https://github.com/USEPA/StreamCat"><b>USEPA/StreamCat</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/USEPA/StreamCat?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/USEPA/StreamCat?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/USEPA/StreamCat?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/USEPA/StreamCat?style=flat-square&labelColor=343b41"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/USEPA/LakeCat"><b>USEPA/LakeCat</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/USEPA/LakeCat?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/USEPA/LakeCat?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/USEPA/LakeCats?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/USEPA/LakeCat?style=flat-square&labelColor=343b41"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/USEPA/spsurvey"><b>USEPA/spsurvey</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/USEPA/spsurvey?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/USEPA/spsurvey?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/USEPA/spsurvey?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/USEPA/spsurvey?style=flat-square&labelColor=343b41"/></td>
+    </tr>
+  </tbody>
+</table>
 
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/mhweber/count.svg" />
+</p>
