@@ -46,7 +46,7 @@ I'm a geographer with the US EPA. My research interests include spatial analysis
       <td><a href="https://github.com/USEPA/LakeCat"><b>USEPA/LakeCat</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/USEPA/LakeCat?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Forks" src="https://img.shields.io/github/forks/USEPA/LakeCat?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/USEPA/LakeCats?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/USEPA/LakeCat?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/USEPA/LakeCat?style=flat-square&labelColor=343b41"/></td>
     </tr>
     <tr>
