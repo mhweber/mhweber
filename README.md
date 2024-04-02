@@ -2,6 +2,7 @@
 
 <p align="center">
   <a href="https://fosstodon.org/@mhweber"><img src="https://img.shields.io/badge/-Mastodon-555555?style=for-the-badge&logo=Mastodon&logoColor=white" alt="Mastodon"></a>	
+  <a href="https://bsky.app/profile/mweber36.bsky.social"><img src="https://img.shields.io/badge/-Bluesky-555555?style=for-the-badge&logo=Bluesky&logoColor=white" alt="Bluesky"></a>	
   <a href="https://github.com/mhweber?tab=followers"><img src="https://img.shields.io/badge/-Github/-555555?style=for-the-badge&logo=GitHub&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/marchweber"><img src="https://img.shields.io/badge/-LinkedIn/-555555?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="Linked In"></a>
 </p>
