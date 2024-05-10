@@ -15,10 +15,14 @@
 
 I'm a geographer with the US EPA. My research interests include spatial analysis in R and Python, Geographic Information Science (GIS), aquatic ecology, remote sensing, open source science and environmental modeling. I'm an avid trail runner and ultra-runner and love tinkering on house projects and gardening in my spare time.
 
-<p float="center">
-  <img src="https://github.com/mhweber/mhweber/assets/7387892/a4c9452c-b90b-4972-8412-71e4ad4be2d8" width="300" />
-  <img src="https://github.com/mhweber/mhweber/assets/7387892/95ca195d-a18f-4688-bc4b-f0baaff469a8" width="300" />
-</p>
+<div style="display:flex">
+     <div style="flex:1;padding-right:10px;">
+          <img src="[img/image1.png](https://github.com/mhweber/mhweber/assets/7387892/a4c9452c-b90b-4972-8412-71e4ad4be2d8)" width="300"/>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="[img/image2.png](https://github.com/mhweber/mhweber/assets/7387892/95ca195d-a18f-4688-bc4b-f0baaff469a8)" width="350"/>
+     </div>
+</div>
 
 ## Current projects
 
