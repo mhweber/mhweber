@@ -13,7 +13,9 @@ github: mhweber
 docname: Curriculum Vitae
 aboutme: I'm a geographer with the US EPA. My research interests include spatial analysis in R and Python, Geographic Information Science (GIS), aquatic ecology, remote sensing, open source science and environmental modeling.
 headcolor: 414141
-output: vitae::hyndman
+output: 
+  vitae::moderncv:
+    theme: classic
 ---
 
 ```{r setup, include=FALSE}
@@ -107,7 +109,7 @@ tribble(
   detailed_entries(role, dates, company, loc, details)
 ```
 
-<!-- \newpage -->
+\newpage
 
 # Education
 
@@ -140,42 +142,16 @@ gsheet2tbl('https://docs.google.com/spreadsheets/d/1KqOAC9GrC85aKmt4oUiEe2Og3uZt
                  when  = Date)
 ```
 
+\newpage
+
 # Awards
 
 ```{r}
 gsheet2tbl('https://docs.google.com/spreadsheets/d/1KqOAC9GrC85aKmt4oUiEe2Og3uZttyXQo1rOeukSAo8/edit#gid=0') |> 
-  detailed_entries(with = Name, when = Year)
+  detailed_entries(when = Year, what = Name)
 ```
 
-# Publications
-
-```{r}
-cites <- cites |> 
-  dplyr::mutate(title = case_when(
-    (pubid=='FiDNX6EVdGUC') ~ "15N of chironomidae: an index of nitrogen sources and processing within watersheds for national aquatic monitoring programs",
-    TRUE ~ title))
-mutate(cites, bibtype = "article")  |> 
-  as.BibEntry() %>%
-  WriteBib("marc-gs.bib")
-
-bibliography_entries("marc-gs.bib")  |> 
-  arrange(desc(issued))
-
-```
-
-# Selected Presentations
-
-```{r}
-gsheet2tbl('https://docs.google.com/spreadsheets/d/1KqOAC9GrC85aKmt4oUiEe2Og3uZttyXQo1rOeukSAo8/edit?pli=1&gid=738687032#gid=738687032') |> 
-  detailed_entries(what = Title, where = Place, when = Date)
-```
-
-# Trainings, Certificates and Courses
-
-```{r}
-gsheet2tbl('https://docs.google.com/spreadsheets/d/1KqOAC9GrC85aKmt4oUiEe2Og3uZttyXQo1rOeukSAo8/edit?pli=1&gid=1586274115#gid=1586274115') |> 
-  detailed_entries(what = Title, when = Date, with = Who)
-```
+\newpage
 
 # Open Source Software
 
@@ -196,4 +172,34 @@ tribble(
                   .protect = FALSE)
 ```
 
+# Publications
 
+```{r}
+cites <- cites |> 
+  dplyr::mutate(title = case_when(
+    (pubid=='FiDNX6EVdGUC') ~ "15N of chironomidae: an index of nitrogen sources and processing within watersheds for national aquatic monitoring programs",
+    TRUE ~ title))
+mutate(cites, bibtype = "article")  |> 
+  as.BibEntry() %>%
+  WriteBib("marc-gs.bib")
+
+bibliography_entries("marc-gs.bib")  |> 
+  arrange(desc(issued))
+
+```
+
+\newpage
+
+# Selected Presentations
+
+```{r}
+gsheet2tbl('https://docs.google.com/spreadsheets/d/1KqOAC9GrC85aKmt4oUiEe2Og3uZttyXQo1rOeukSAo8/edit?pli=1&gid=738687032#gid=738687032') |> 
+  detailed_entries(what = Title, where = Place, when = Date)
+```
+
+# Trainings, Certificates and Courses
+
+```{r}
+gsheet2tbl('https://docs.google.com/spreadsheets/d/1KqOAC9GrC85aKmt4oUiEe2Og3uZttyXQo1rOeukSAo8/edit?pli=1&gid=1586274115#gid=1586274115') |> 
+  detailed_entries(what = Title, when = Date, with = Who)
+```
