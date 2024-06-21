@@ -32,13 +32,13 @@ gs_id = 'DOs--KYAAAAJ&hl'
 marc_gs = get_profile(gs_id) 
 
 cites = get_publications(gs_id) |> 
-   dplyr::filter(!grepl("Meeting", journal)) 
+   dplyr::filter(!journal %in% c('AGU Fall Meeting Abstracts','Available at SSRN') & !is.na(journal)) 
 
-for(i in 1:nrow(cites)){
-  if(!grepl("MH Weber|M Weber", cites$author[i])){
-    cites$author[i] = get_complete_authors(id = gs_id, pubid = cites$pubid[i])
-  }
-}
+cites <- data.frame(lapply(cites, function(x) {
+  gsub("\\, \\.\\.\\.", " et al.", x)
+  }))
+
+
 
 follow = readLines('https://img.shields.io/github/followers/mhweber?label=follow&style=social')
 f = str_match(follow, "<title>Follow: \\s*(.*?)\\s*</title>")[,2]
@@ -54,19 +54,55 @@ tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
   
   "Geographer", "US Environmental Protection Agency", "Corvallis, Oregon", "June 2008 - Present", 
-     list("Provide geospatial support for the EPA National Aquatic Resource Surveys (NARS) and helping build national predictive models and maps of watershed integrity and aquatic condition",
-          "Develop approaches primarily in Python and R, as well as using ArcGIS, to process landscape data for spatial designs and modeling, and to interact with the National Hydrography Dataset Plus (NHDPlus).",
-          "Develop the spatial framework and geospatial analysis support for the national lakes, rivers and streams, wetlands, and coastal surveys.",
-          "Develop natioanl scale geospatial products such as StreamCat and LakeCat - datasets of national scale watershed characteristics.",
-          "Produce R packages such as StreamCatTools and spsurvey for applying data and methods to aquatic resource work"
+     list("Provide geospatial support for the EPA National Aquatic Resource Surveys (NARS)",
+          "Develop spatial approaches to produce national predictive models and maps of watershed integrity and aquatic condition",
+          "Process landscape data for spatial designs and modeling using libraries in Python and R and ArcGIS",
+          "Generate hydrologic analyses using the National Hydrography Dataset Plus (NHDPlus) as well as help develop the future direction of the National Hydrography Dataset as part of the interagency 3D Hydrography Working Group",
+          "Develop national scale geospatial products such as StreamCat and LakeCat - datasets of national scale watershed characteristics",
+          "Produce R packages such as StreamCatTools and spsurvey for applying data and methods to aquatic resources work"
     ),
   
   "Instructor, GIS Certificate Program", "University of Washington", "Seattle, WA", "Jan 2023 - Present", 
-    list("Instructor for GIS Project Planning course for GIS certificate program.",
-"Instructor for GIS in the Pacific Northwest course for GIS certificate program.",
-"Design and deliver lectures focused on project planning for GIS, GIS technology, and trends in the GIS profession."),
+    list("Instructor for GIS Project Planning course and GIS in the Pacific Northwest course for GIS certificate program",
+         "Design and deliver lectures focused on project planning for GIS, GIS technology, and trends in the GIS profession",
+         "Mentor GIS certificate student programs in developing skills to enter the GIS workforce"),
   
-
+  "GIS Specialist", "U.S. Forest Service, Rocky Mountain Research Station Fire Sciences Lab", "Missoula, MT", "June 2005 - May 2008", 
+    list("Worked on the USFS Landfire program on the fire regimes team",
+         "Ran and modified fire / landscape simulation models (LANDSUM, VDDT)",
+         "Processed spatial data using scripting languages (Python and AML), and performed advanced spatial analysis on fire and fuels data using SQL, Python, VBA, and R",
+         "Processed raster data using map algebra for analysis of national fire and fuels mapping products",
+         "Interacted and worked closely with personnel from partner agencies such as USGS EROS data center and the Nature Conservancy"),
+ 
+   "Biologist", "U.S. Forest Service, Rocky Mountain Research Station Fire Sciences Lab", "Missoula, MT", "May 2003 - June 2005", 
+    list("Managed research project examining historical fire regimes in Utah",
+         "Planned and located research plots and gathered field measurements using increment borers, chainsaws, gps units and laser rangefinders",
+         "Applied dendrochonology techniques using software such as COFECHA and FHX2 for dating fire-scarred samples",
+         "Processed, summarized, analyzed data and prepared reports on fire history data collected",
+         "Performed spatial analysis and map production using ArcMap software and AML scripts",
+         "Performed statistical analyses on data using SAS and R"),
+  
+  "Ecologist", "U.S. Forest Service, Pacific Northwest Research Station Forestry Sciences Lab", "Portland, OR", "June 2001 - April 2003", 
+    list("Supervised field crew for the Forest Inventory and Analysis (FIA) program",
+         "Prepared field methods and summarized data",
+         "Performed database development in Access and Oracle of inventory plot data",
+         "Used advanced photo interpretation, plant identification, and forest pathogen identification skills",
+         "Applied expertise with laser rangefinder, GPS, data logger, increment borer, and clinometer",
+         "Prepared plot maps and performed spatial queries using ArcGIS, helped model forest mortality from plot data as part of a pilot study"),
+  
+  "Instructor", "Portland Community College", "Portland, OR", "September 2000 - May 2003", 
+    list("Taught two geography field courses each term, one on Mt. St. Helens and one on the Oregon High Desert",
+         "Delivered day-long courses focusing on geography and natural history of the areas",
+         "Developed course curriculum, supervised approximately 50 community college students on day long field classes, and graded student papers"),
+  
+  "Assistant Editor", "Himalayan Research Bulletin, Portland State University", "Portland, OR", "September 1999 - May 2001", 
+    list("Managed layout and editing of international journal on geographic and cultural research on the Himalayas",
+         "Performed journal layout using Adobe Pagemaker, Adobe Photoshop, and Adobe Illustrator software",
+         "Performed general office management tasks such as updating membership, correspondence, billing and mailing"),
+  
+  "Research Assistant", "Portland State University Department of Geography", "Portland, OR", "June 1999 - September 1999", 
+    list("Assisted in research project on tree-islands (kipukas) in lava flows at Newbarry Crater National Monument, examining fire history and insect outbreaks",
+         "Collected tree increment cores, identified plants using plant keys, and measured fuel loading on sample plots")
 )  |>  
   detailed_entries(role, dates, company, loc, details)
 ```
@@ -94,6 +130,23 @@ tribble(
                    why = details)
 ```
 
+# Workshops Taught
+
+```{r}
+gsheet2tbl('https://docs.google.com/spreadsheets/d/1KqOAC9GrC85aKmt4oUiEe2Og3uZttyXQo1rOeukSAo8/edit?pli=1&gid=185522772#gid=185522772') |> 
+             detailed_entries(
+                 what  = Title,
+                 where = Place,
+                 when  = Date)
+```
+
+# Awards
+
+```{r}
+gsheet2tbl('https://docs.google.com/spreadsheets/d/1KqOAC9GrC85aKmt4oUiEe2Og3uZttyXQo1rOeukSAo8/edit#gid=0') |> 
+  detailed_entries(with = Name, when = Year)
+```
+
 # Publications
 
 ```{r}
@@ -110,42 +163,18 @@ bibliography_entries("marc-gs.bib")  |>
 
 ```
 
-
-## Workshops
+# Selected Presentations
 
 ```{r}
-# xx = gsheet2tbl('https://docs.google.com/spreadsheets/d/1Zyyk8laciZ-3oAJl_tGGLeRcpfuUJpTRtTio0gMO06o/edit#gid=1176238393') %>% 
-#   mutate(Details = ifelse(is.na(Details), character(), Details)) %>% 
-#   tidyr::separate_longer_delim(Details, "SPLIT") %>% 
-#   group_by(Title) %>% 
-#   mutate(Details = list(as.list(Details))) %>% 
-#   slice(1) %>% 
-#   ungroup() 
-# 
-# ind = list()
-# 
-# for(i in 1:nrow(xx)){
-#   ind[[i]] = sum(is.na(unlist(xx$Details[[i]]))) == length(unlist(xx$Details[[i]]))
-# }
-# 
-# ind = which(unlist(ind))
-# 
-# for(i in 1:length(ind)){ xx$Details[[ind[i]]] = character() }
-# 
-# detailed_entries(arrange(xx, sort), 
-#                  what  = Venue, 
-#                  when  = Type, 
-#                  with  = Title, 
-#                  where = Date, 
-#                  why   = Details,
-#                  .protect = TRUE)
+gsheet2tbl('https://docs.google.com/spreadsheets/d/1KqOAC9GrC85aKmt4oUiEe2Og3uZttyXQo1rOeukSAo8/edit?pli=1&gid=738687032#gid=738687032') |> 
+  detailed_entries(what = Title, where = Place, when = Date)
 ```
 
-## Awards
+# Trainings, Certificates and Courses
 
 ```{r}
-gsheet2tbl('https://docs.google.com/spreadsheets/d/1KqOAC9GrC85aKmt4oUiEe2Og3uZttyXQo1rOeukSAo8/edit#gid=0') |> 
-  detailed_entries(when = Year, with = Name)
+gsheet2tbl('https://docs.google.com/spreadsheets/d/1KqOAC9GrC85aKmt4oUiEe2Og3uZttyXQo1rOeukSAo8/edit?pli=1&gid=1586274115#gid=1586274115') |> 
+  detailed_entries(what = Title, when = Date, with = Who)
 ```
 
 # Open Source Software
@@ -156,6 +185,8 @@ tribble(
   "\\href{https://github.com/USEPA/StreamCatTools}{StreamCatTools}", "Author", "R package to work with the StreamCat API within R and access the full suite of StreamCat catchment and watershed scale metrics for all NHDPlusV2 stream reaches and catchments.",
   
   "\\href{https://github.com/USEPA/spsurvey}{spsurvey}", "Co-author", "spsurvey is an R package that implements a design-based approach to statistical inference, with a focus on spatial data.",
+  
+  "\\href{https://github.com/USEPA/micromap}{micromap}", "Co-author", "micromap is an R package for developing small multiple maps with corresponding statistical summaries in R",
 
   "\\href{https://github.com/doi-usgs/nhdplusTools}{DOI-USGS/nhdplusTools}",  "Contributor", "Manipulating hydrographic data with the NHDPlus data model.",
 ) %>%
