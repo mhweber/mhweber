@@ -17,7 +17,8 @@ I'm a geographer with the US EPA. My research interests include spatial analysis
 
 
 <div align="center">
-	<img src="https://xkcd.com/1987" width="250">
+	<img src="![image](https://github.com/mhweber/mhweber/assets/7387892/9bf73b0b-ce57-4a72-adec-12e373202b51)
+" width="250">
 </div>
 
 <h3><a href="CV.pdf">My latest CV</a> (made with <a href="https://pkg.mitchelloharawild.com/vitae/">vitae</a>)</h3> 
