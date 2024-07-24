@@ -8,9 +8,9 @@ qualifications: M.S.
 googlescholar: "DOs--KYAAAAJ&hl"
 email: weber.marc@epa.gov
 www: mhweber.github.io
-fontawesome: yes
 github: mhweber
-docname: Curriculum Vitae
+linkedin: marchweber
+docname: CV
 aboutme: I'm a geographer with the US EPA. My research interests include spatial analysis in R and Python, Geographic Information Science (GIS), aquatic ecology, remote sensing, open source science and environmental modeling.
 headcolor: 414141
 output: 
@@ -75,7 +75,7 @@ tribble(
          "Processed spatial data using scripting languages (Python and AML), and performed advanced spatial analysis on fire and fuels data using SQL, Python, VBA, and R",
          "Processed raster data using map algebra for analysis of national fire and fuels mapping products",
          "Interacted and worked closely with personnel from partner agencies such as USGS EROS data center and the Nature Conservancy"),
- 
+
    "Biologist", "U.S. Forest Service, Rocky Mountain Research Station Fire Sciences Lab", "Missoula, MT", "May 2003 - June 2005", 
     list("Managed research project examining historical fire regimes in Utah",
          "Planned and located research plots and gathered field measurements using increment borers, chainsaws, gps units and laser rangefinders",
@@ -108,8 +108,6 @@ tribble(
 )  |>  
   detailed_entries(role, dates, company, loc, details)
 ```
-
-\newpage
 
 # Education
 
@@ -151,7 +149,7 @@ gsheet2tbl('https://docs.google.com/spreadsheets/d/1KqOAC9GrC85aKmt4oUiEe2Og3uZt
   detailed_entries(when = Year, what = Name)
 ```
 
-\newpage
+\pagebreak
 
 # Open Source Software
 
@@ -166,9 +164,9 @@ tribble(
 
   "\\href{https://github.com/doi-usgs/nhdplusTools}{DOI-USGS/nhdplusTools}",  "Contributor", "Manipulating hydrographic data with the NHDPlus data model.",
 ) %>%
- detailed_entries(with = pkg,
+ detailed_entries(with = details,
                   when = role, 
-                  what = details, 
+                  what = pkg, 
                   .protect = FALSE)
 ```
 
