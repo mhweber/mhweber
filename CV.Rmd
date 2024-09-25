@@ -8,7 +8,7 @@ qualifications: M.S.
 googlescholar: "DOs--KYAAAAJ&hl"
 email: weber.marc@epa.gov
 www: mhweber.github.io
-fontawesome: yes
+fontawesome: no
 github: mhweber
 docname: Curriculum Vitae
 aboutme: I'm a geographer with the US EPA. My research interests include spatial analysis in R and Python, Geographic Information Science (GIS), aquatic ecology, remote sensing, open source science and environmental modeling.
