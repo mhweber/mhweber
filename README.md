@@ -17,7 +17,7 @@ I'm a geographer with the US EPA. My research interests include spatial analysis
 
 
 <div align="center">
-	<img src="![Open Source Code Dependency](https://github.com/user-attachments/assets/aa0feef3-3e6a-48d7-971b-2da57bc7ac98)
+	<img src="https://github.com/user-attachments/assets/aa0feef3-3e6a-48d7-971b-2da57bc7ac98" 
 " width="250">
 </div>
 
