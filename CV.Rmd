@@ -132,10 +132,22 @@ tribble(
                    why = details)
 ```
 
-# Workshops Taught
+# Selected Workshops Taught
 
 ```{r}
 gsheet2tbl('https://docs.google.com/spreadsheets/d/1KqOAC9GrC85aKmt4oUiEe2Og3uZttyXQo1rOeukSAo8/edit?pli=1&gid=185522772#gid=185522772') |> 
+             detailed_entries(
+                 what  = Title,
+                 where = Place,
+                 when  = Date)
+```
+
+\newpage
+  
+# Selected Presentations
+
+```{r}
+gsheet2tbl('https://docs.google.com/spreadsheets/d/1KqOAC9GrC85aKmt4oUiEe2Og3uZttyXQo1rOeukSAo8/edit?gid=738687032#gid=738687032') |> 
              detailed_entries(
                  what  = Title,
                  where = Place,
