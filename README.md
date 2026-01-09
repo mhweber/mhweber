@@ -22,7 +22,7 @@ I'm a geographer with the US EPA. My research interests include spatial analysis
 
 <h3><a href="CV.pdf">My latest CV</a> (made with <a href="https://pkg.mitchelloharawild.com/vitae/">vitae</a>)</h3> 
 
-## Current projects
+## Projects I'm Working On
 
 <table>
   <thead align="center">
@@ -63,6 +63,13 @@ I'm a geographer with the US EPA. My research interests include spatial analysis
       <td><img alt="Forks" src="https://img.shields.io/github/forks/USEPA/spsurvey?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/USEPA/spsurvey?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/USEPA/spsurvey?style=flat-square&labelColor=343b41"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/USEPA/EPATADA"><b>USEPA/EPATADA</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github.com/USEPA/EPATADA?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github.com/USEPA/EPATADA?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github.com/USEPA/EPATADA?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github.com/USEPA/EPATADA?style=flat-square&labelColor=343b41"/></td>
     </tr>
   </tbody>
 </table>
