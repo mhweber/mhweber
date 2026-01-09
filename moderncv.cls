@@ -334,7 +334,11 @@
 \newcommand*{\signalsocialsymbol}{}
 \newcommand*{\matrixsocialsymbol}{}
 \newcommand*{\bornsymbol}{}
+<<<<<<< HEAD
 \newcommand{\mastodonsocialsymbol}{\faMastodon}
+=======
+\newcommand{\mastodonsocialsymbol}{\faMastodon}	
+>>>>>>> 8c841fd62b55110da082c7ae3874d989379ef780
 \newcommand{\discordsocialsymbol}{\faDiscord}
 \newcommand{\twitchsocialsymbol}{\faTwich}
 \newcommand{\youtubesocialsymbol}{\faYoutube}
@@ -345,6 +349,10 @@
 \newcommand{\xboxsocialsymbol}{\faxboxsocialsymbol}
 \newcommand{\playstationsocialsymbol}{\faPlaystationsocialsymbol}
 \newcommand{\battlenetsocialsymbol}{\faBattlenesocialsymbol}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8c841fd62b55110da082c7ae3874d989379ef780
 % other
 %------
 % fonts
