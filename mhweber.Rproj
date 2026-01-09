@@ -12,7 +12,11 @@ Encoding: UTF-8
 
 RnwWeave: Sweave
 <<<<<<< HEAD
+<<<<<<< HEAD
 LaTeX: LuaLaTeX
+=======
+LaTeX: pdfLaTeX
+>>>>>>> 8c841fd62b55110da082c7ae3874d989379ef780
 =======
 LaTeX: pdfLaTeX
 >>>>>>> 8c841fd62b55110da082c7ae3874d989379ef780

@@ -8,10 +8,7 @@ qualifications: M.S.
 googlescholar: "DOs--KYAAAAJ&hl"
 email: weber.marc@epa.gov
 www: mhweber.github.io
-<<<<<<< HEAD
-=======
 fontawesome: no
->>>>>>> 8c841fd62b55110da082c7ae3874d989379ef780
 github: mhweber
 linkedin: marchweber
 docname: CV
