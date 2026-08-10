@@ -75,18 +75,7 @@ I'm a geographer with the US EPA. My research interests include spatial analysis
   </tbody>
 </table>
 
-## Stats
-![Github stats](https://github-readme-stats-sigma-five.vercel.app/api?username=mhweber&theme=aura&hide_title=true&show_icons=true&include_all_commits=true&count_private=true)
-[![Marc's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mhweber&layout=donut)](https://github.com/mhweber/github-readme-stats)
-<!--
-<a href="https://github.com/mhweber/mhweber">
-  <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=mhweber&hide=java,html,go, javascript,css&&layout=compact&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
-
-<a href="https://github.com/mhweber/mhweber">
-  <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=mhweber&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Marc's GitHub Stats" />
-</a>
-
-<p align="center"> 
-  Visitor count<br>
-  <img src="https://profile-counter.glitch.me/mhweber/count.svg" />
+<p align="left">
+  <img src="https://img.shields.io/badge/Views-Profile%20counter-blue?style=for-the-badge&logo=github" alt="Views badge" />
+  <img src="https://komarev.com/ghpvc/?username=mhweber&label=&color=0e75b6&style=for-the-badge" alt="profile views" />
 </p>
